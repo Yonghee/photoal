@@ -17,7 +17,7 @@ import java.util.Map;
 public class PhotoUploadController {
 
     @GetMapping("/photoUpload")
-    public String photoUpload(Map<String, Object> model) {
+    public String photoUpload() {
 
         return "PhotoUpload";
     }
